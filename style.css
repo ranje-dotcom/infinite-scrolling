@@ -1,0 +1,43 @@
+
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(270deg,red,black);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: cyan;
+}
+
+.loader {
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.loader img {
+    position: fixed;
+    top: 40%;
+    left: 45%;
+}
+
+.img-container {
+    margin: 10px 20%;
+}
+
+.img-container img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+
